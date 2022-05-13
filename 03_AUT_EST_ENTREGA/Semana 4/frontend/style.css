@@ -1,0 +1,38 @@
+.espaco {
+    line-height: 0px;
+    margin-top: 35px;
+}
+
+.colocarnomei {
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+.colocarnomei:hover {
+    color: blueviolet;
+}
+
+.APENASLINEHEIGHT {
+    line-height: 0px;
+}
+
+.minhafoto {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+    background-color:lightgrey;
+}
+
+#botao,#buttton {
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+
+
