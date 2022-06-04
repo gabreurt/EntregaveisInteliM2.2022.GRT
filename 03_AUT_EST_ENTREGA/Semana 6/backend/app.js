@@ -11,9 +11,9 @@ const port = 3071;
 
 app.get("/users", (req, res) => {
   res.statusCode = 200;
-  res.setHeader("Access-Control-Allow-Origin", "*"); // Isso é importante para evitar o erro de CORS
+  res.setHeader("Access-Control-Allow-Origin", "*"); 
 
-  var db = new sqlite3.Database(DBPATH); // Abre o banco
+  var db = new sqlite3.Database(DBPATH); 
   var sql = "SELECT * FROM curriculo ORDER BY id COLLATE NOCASE";
   db.all(sql, [], (err, rows) => {
     if (err) {
@@ -21,7 +21,7 @@ app.get("/users", (req, res) => {
     }
     res.json(rows);
   });
-  db.close(); // Fecha o banco
+  db.close(); 
 });
 
 app.listen(port, hostname, () => {
