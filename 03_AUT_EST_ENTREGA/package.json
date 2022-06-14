@@ -1,0 +1,22 @@
+{
+  "name": "03_aut_est_entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabreurt/EntregaveisInteliM2.2022.GRT.git"
+  },
+  "keywords": [
+    "curriculo"
+  ],
+  "author": "Gabriel Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabreurt/EntregaveisInteliM2.2022.GRT/issues"
+  },
+  "homepage": "https://github.com/gabreurt/EntregaveisInteliM2.2022.GRT#readme"
+}
