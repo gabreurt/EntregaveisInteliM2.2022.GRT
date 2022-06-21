@@ -29,7 +29,7 @@ const port = 3071;
 /****** CRUD ******************************************************************/
 
 // Retorna todos registros (é o R do CRUD - Read)
-app.get('/getRecrutadores', (req, res) => {
+app.get('/users', (req, res) => {
   res.statusCode = 200;
   res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
 
@@ -49,7 +49,7 @@ app.post('/userinsert', urlencodedParser, (req, res) => {
   res.statusCode = 200;
   res.setHeader('Access-Control-Allow-Origin', '*'); // Isso é importante para evitar o erro de CORS
 
-  sql = "INSERT INTO curriculo (recrutador) VALUES ('" + req.body.recrutador + "')";
+  sql = "INSERT INTO curriculo (id, recrutador) VALUES ('" + req.body.title + "3, terceiro)";
   var db = new sqlite3.Database(DBPATH); // Abre o banco
   db.run(sql, [], err => {
     if (err) {

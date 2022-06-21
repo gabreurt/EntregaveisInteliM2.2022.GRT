@@ -1,11 +1,9 @@
-function Javascript() 
-{
+function Javascript() {
     window.location.href = "\segundapag.html";
 };
 
 
-function Alerta() 
-{
+function Alerta() {
     alert("Infelizmente este menino já se encontra contratado, volte em novembro.")
 };
 
@@ -33,3 +31,4 @@ const disableDarkMode = () => {
 if (darkMode === 'enabled') {
     enableDarkMode();
 }
+

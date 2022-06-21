@@ -9,7 +9,7 @@ const DBPATH = "lala.db";
 const hostname = "127.0.0.1";
 const port = 3071;
 
-app.get("/users", (req, res) => {
+app.get("/getRecrutadores", (req, res) => {
   res.statusCode = 200;
   res.setHeader("Access-Control-Allow-Origin", "*"); 
 

@@ -1,7 +1,3 @@
-window.onload = function() {
-    getRecrutadores();
-   };
- 
 function Javascript() 
 {
     window.location.href = "\segundapag.html";
@@ -36,17 +32,4 @@ const disableDarkMode = () => {
 
 if (darkMode === 'enabled') {
     enableDarkMode();
-}
-
-function getRecrutadores(){
-    var url = "http://127.0.0.1:3071/getRecrutadores";
-    var xhttp = new XMLHttpRequest();
-    xhttp.open("GET", url, false);
-    xhttp.send();//A execução do script pára aqui até a requisição retornar do servidor
-    var resultado = JSON.parse(xhttp.response);
-    var recrutadores = "<p>Recrutadores: </p>";
-    for(var i = 0 ; i != resultado.length; i++){
-        recrutadores += `<li>${resultado[i].Recrutador}</li>`;
-    }
-    document.getElementById("recrutadores").innerHTML = recrutadores;
 }
