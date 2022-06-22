@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <h1 class="colocarnomei">Gabriel Rios Torres</h1>
-    <img class="minhafoto" src="https://media-exp1.licdn.com/dms/image/C4D03AQHQ3ic_C6YpSQ/profile-displayphoto-shrink_800_800/0/1652416062527?e=1657756800&v=beta&t=Q3ptkS8VZ1NUNWgrPYu8H2inHp8KQRNhH8lrl1ckWfY" alt="foto de perfil">
-    <h2 class="colocarnomei"> PERFIL </h2> Sou um aluno dedicado do primeiro período de Ciências da Computação. O destaque nas
-    atividades que me proponho a fazer se deve pela minha educação, persistência e motivação
-    para alcançar grandes objetivos. Estou a procura de uma oportunidade para iniciar minha
-    carreira e demonstrar meu talento e força de vontade para contribuir com a equipe.
-    <h2 class="colocarnomei">INFORMAÇÕES PESSOAIS</h2> Nome: Gabriel Rios Torres <br> Data de Nascimento: 18/05/2004 <br> Naturalidade: Vila Velha -
-    ES <br> Residência: Rua MMDC, 80, Butantã, São Paulo - SP <br> Contato: (27) 995329629 | gabrieltorrespro18@gmail.com <br> Linkedin: <a href="http://www.linkedin.com/in/gabrielriostorres"> Gabriel Rios Torres</a>
+    <img
+      class="minhafoto"
+      src="https://media-exp1.licdn.com/dms/image/C4D03AQHQ3ic_C6YpSQ/profile-displayphoto-shrink_800_800/0/1652416062527?e=1657756800&v=beta&t=Q3ptkS8VZ1NUNWgrPYu8H2inHp8KQRNhH8lrl1ckWfY"
+      alt="foto de perfil"
+    />
+    <h2 class="colocarnomei">PERFIL</h2>
+    Sou um aluno dedicado do primeiro período de Ciências da Computação. O
+    destaque nas atividades que me proponho a fazer se deve pela minha educação,
+    persistência e motivação para alcançar grandes objetivos. Estou a procura de
+    uma oportunidade para iniciar minha carreira e demonstrar meu talento e
+    força de vontade para contribuir com a equipe.
+    <h2 class="colocarnomei">INFORMAÇÕES PESSOAIS</h2>
+    Nome: Gabriel Rios Torres <br />
+    Data de Nascimento: 18/05/2004 <br />
+    Naturalidade: Vila Velha - ES <br />
+    Residência: Rua MMDC, 80, Butantã, São Paulo - SP <br />
+    Contato: (27) 995329629 | gabrieltorrespro18@gmail.com <br />
+    Linkedin:
+    <a href="http://www.linkedin.com/in/gabrielriostorres">
+      Gabriel Rios Torres</a
+    >
     <h2 class="colocarnomei">HABILIDADES</h2>
-    <li>Conhecimentos básicos no pacote Office, Google Workspace e Adobe Premiere Rush.</li>
+    <li>
+      Conhecimentos básicos no pacote Office, Google Workspace e Adobe Premiere
+      Rush.
+    </li>
     <li>Digitação de 204 TPM e 51 WPM</li>
     <li>Independência</li>
     <li>Automotivação e organização</li>
     <li>Gestão de tempo</li>
     <li>Colaboração e eficiência</li>
     <li>Inglês (intermediário)</li>
-    <br>
-    <button id="buttton" onclick="Javascript()">Seguir para as experiências</button>
-    <br>
-    <button id="dark-mode-toggle"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></button>
-    <script src="script.js"></script>
-</body>
+    <br />
+    <ul id="recrutadores"></ul>
+    <input type="text" id="recrutador" /> Coloque seu nome na ordem! <br />
+    <button id="buton" onclick="inserir()">Salvar</button>
+    <br />
+    <button id="buttton" onclick="Javascript()">
+      Seguir para as experiências
+    </button>
+    <br />
 
+    <button id="dark-mode-toggle">
+      <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+    </button>
+    <script src="script.js"></script>
+  </body>
 </html>
